@@ -1,0 +1,193 @@
+.eventos {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .eventos .div {
+    background-color: #ffffff;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+  }
+  
+  .eventos .ativo {
+    position: absolute;
+    width: 133px;
+    height: 32px;
+    top: 50px;
+    left: 64px;
+    object-fit: cover;
+  }
+  
+  .eventos .component {
+    position: absolute;
+    width: 678px;
+    height: 43px;
+    top: 38px;
+    left: 680px;
+  }
+  
+  .eventos .frame,
+  .eventos .aes-wrapper,
+  .eventos .quem-somos-wrapper,
+  .eventos .projetos-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    height: 43px;
+    position: absolute;
+  }
+  
+  .eventos .frame {
+    width: 103px;
+    top: 0;
+    left: 576px;
+  }
+  
+  .eventos .aes-wrapper {
+    width: 79px;
+    top: 0;
+    left: 414px;
+  }
+  
+  .eventos .quem-somos-wrapper {
+    width: 138px;
+    top: 0;
+    left: 0;
+  }
+  
+  .eventos .projetos-wrapper {
+    width: 114px;
+    top: 0;
+    left: 219px;
+  }
+  
+  .eventos .div-wrapper {
+    position: relative;
+    width: 100%;
+    height: 23px;
+  }
+  
+  .eventos .text-wrapper,
+  .eventos .text-wrapper-2,
+  .eventos .text-wrapper-3 {
+    position: absolute;
+    font-family: "Cascadia Code-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .eventos .text-wrapper {
+    top: -1px;
+    left: -4px;
+  }
+  
+  .eventos .text-wrapper-2 {
+    top: -1px;
+    left: -3px;
+  }
+  
+  .eventos .text-wrapper-3 {
+    top: -1px;
+    left: -5px;
+  }
+  
+  .mySwiper {
+    width: 1200px;
+    height: 600px;
+    position: absolute;
+    top: 270px;
+    left: 120px;
+    z-index: 1;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 1000px;
+    height: 500px;
+    border-radius: 40px;
+    overflow: hidden;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Cascadia Code", monospace;
+    font-size: 28px;
+    color: white;
+    background-color: #333;
+  }
+  
+  .slider-controler {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+    z-index: 10;
+  }
+  
+  .swiper-button-prev-custom,
+  .swiper-button-next-custom {
+    width: 57px;
+    height: 57px;
+    background-color: #000000;
+    border-radius: 50%;
+    box-shadow: 0px 5.49px 5.49px rgba(0, 0, 0, 0.3);
+    opacity: 0.87;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .swiper-button-prev-custom:hover,
+  .swiper-button-next-custom:hover {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  
+  .swiper-button-prev-custom img,
+  .swiper-button-next-custom img {
+    width: 19px;
+    height: 33px;
+  }
+  
+
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    display: none;
+  }
+  
+  .eventos .frame-3 {
+    position: absolute;
+    width: 100%;
+    height: 44px;
+    top: -600px;
+    left: 320px;
+    text-align: center;
+  }
+  
+  .eventos .text-wrapper-4 {
+    font-family: "Cascadia Code-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 38px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
