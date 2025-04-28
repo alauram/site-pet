@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/alauram/site-pet/static/css/main.e10ed6ea.css",
+    "main.js": "/alauram/site-pet/static/js/main.37c191f8.js",
+    "static/js/453.82a0b734.chunk.js": "/alauram/site-pet/static/js/453.82a0b734.chunk.js",
+    "static/media/setaDireita.svg": "/alauram/site-pet/static/media/setaDireita.fde58b6cbb6265918ccd6a42ee580df8.svg",
+    "static/media/setaEsquerda.svg": "/alauram/site-pet/static/media/setaEsquerda.f0c8fc6eda34011d2da7e1d3b309875b.svg",
+    "index.html": "/alauram/site-pet/index.html",
+    "main.e10ed6ea.css.map": "/alauram/site-pet/static/css/main.e10ed6ea.css.map",
+    "main.37c191f8.js.map": "/alauram/site-pet/static/js/main.37c191f8.js.map",
+    "453.82a0b734.chunk.js.map": "/alauram/site-pet/static/js/453.82a0b734.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e10ed6ea.css",
+    "static/js/main.37c191f8.js"
+  ]
+}
